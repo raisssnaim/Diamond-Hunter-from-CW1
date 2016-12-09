@@ -1,7 +1,7 @@
 // The tile map class contains a loaded tile set 
 // and a 2d array of the map.
 // Each index in the map corresponds to a specific tile.
-//LALALALALALALALALAND
+//LALALALALALALALALAND 2
 
 package com.neet.DiamondHunter.TileMap;
 
