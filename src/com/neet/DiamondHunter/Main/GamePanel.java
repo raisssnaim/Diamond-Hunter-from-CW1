@@ -1,4 +1,4 @@
-// The GamePanel is the drawing canvas.
+// The GamePanel is the drawing canvas. 
 // It contains the game loop which
 // keeps the game moving forward.
 // This class is also the one that grabs key events.

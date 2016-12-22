@@ -1,7 +1,7 @@
 
 
 /**
- * The game program implements an application that  
+ * The game program implements an application that   
  * allows players to enter the GamePanel and play the game.
  * The entry point of the game.
  * This class loads up a JFrame window and
@@ -13,9 +13,7 @@
  */
 
 package com.neet.DiamondHunter.Main;
-
 import javax.swing.JFrame;
-
 
 public class Game {
 	
@@ -26,7 +24,6 @@ public class Game {
 	public static void main(String[] args) {
 		
 		JFrame window = new JFrame("Diamond Hunter");
-		
 		window.add(new GamePanel());
 		window.setResizable(false);
 		window.pack();

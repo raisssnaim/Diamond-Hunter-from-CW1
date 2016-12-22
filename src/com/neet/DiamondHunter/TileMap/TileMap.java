@@ -1,11 +1,11 @@
-// The tile map class contains a loaded tile set 
+// The tile map class contains a loaded tile set  
 // and a 2d array of the map.
 // Each index in the map corresponds to a specific tile.
 //LALALALALALALALALAND 2
 
 package com.neet.DiamondHunter.TileMap;
 
-import java.awt.Graphics2D;
+import java.awt.Graphics2D;   
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -198,7 +198,7 @@ public class TileMap {
 	public void draw(Graphics2D g) {
 		
 		for(int row = rowOffset; row < rowOffset + numRowsToDraw; row++) {
-		
+			
 			if(row >= numRows) break;
 			
 			for(int col = colOffset; col < colOffset + numColsToDraw; col++) {
@@ -224,22 +224,3 @@ public class TileMap {
 	}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

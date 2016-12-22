@@ -74,7 +74,7 @@ public class PlayState implements GameState {
 		// load map
 		tileMap = new TileMap(16);
 		tileMap.loadTiles("/Tilesets/testtileset.gif");
-		tileMap.loadMap("/Maps/testmap.map");
+		tileMap.loadMap("/Maps/map2.map");
 		
 		// create player
 		player = new Player(tileMap);
